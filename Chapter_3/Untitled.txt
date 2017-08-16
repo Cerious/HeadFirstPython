@@ -1,0 +1,5 @@
+sudo docker run -d -e POSTGRES_PASSWORD=1234 -e POSTGRES_USER=dbadmin -e POSTGRES_DB=sandbox -v /Users/nicholasellis/anidata:/var/lib/postgresql/data -p 5432:5432 --name postgres postgres
+
+
+
+/Users/nicholasellis/
