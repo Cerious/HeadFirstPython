@@ -25,7 +25,7 @@ def put_to_store(lyst):
         all_athletes[lister(item).name] = lister(item)
 
     try:
-        with open('athletes,pickle', 'wb') as athf:
+        with open('athletes.pickle', 'wb') as athf:
             pickle.dump(all_athletes, athf)
 
     except IOError as ioerr:
